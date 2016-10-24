@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+}
+body,html{
+    font-size: 10px;
+    background: #ebebeb;
+}
+nav.main-navigation{
+    div.dropmenu{
+        display: none;
+    }
+    ul.menu{
+        display: block;
+    }
+}
+#main{
+    width:80%;
+    margin:0 auto;
+    .content-left{
+        width:100%;
+        box-sizing: border-box;
+        padding:0 1.5rem;
+    }
+    .content-right{
+        width:100%;
+        box-sizing: border-box;
+        padding:0 1.5rem;
+    }
+}

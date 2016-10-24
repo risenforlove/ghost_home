@@ -1,0 +1,18 @@
+	#content {
+					background-color: #cdcdcd;
+				}
+				#header1 {
+					display: none;
+				}
+				#header2 {
+					display: block;
+				}
+				
+				#left {
+					width: 100%;
+					float: none;
+				}
+				#right {
+					width: 100%;
+					float: none;
+				}

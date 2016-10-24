@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  font-size: 10px;
+  background: #ebebeb;
+  min-width: 22.2rem; }
+
+header {
+  width: 100%;
+  height: 22.2rem;
+  position: relative; }
+  header a.branding {
+    width: 100%;
+    height: 100%;
+    position: absolute; }
+    header a.branding img {
+      width: 100%;
+      height: 100%; }
+  header .tubiao {
+    width: 6rem;
+    height: 6.8rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; }
+  header .text-hide {
+    width: 80%;
+    position: absolute;
+    font-size: 1.5rem;
+    color: #fff !important;
+    left: 10%;
+    bottom: 10%; }
+
+nav.main-navigation {
+  background: #fff;
+  width: 100%;
+  height: 5.6rem;
+  border-top: 0.1rem solid #CDCDCD;
+  border-bottom: 0.1rem solid #CDCDCD;
+  margin-bottom: 3.5rem;
+  line-height: 5.6rem;
+  font-size: 1.4rem;
+  overflow: hidden; }
+  nav.main-navigation div.dropmenu {
+    display: none; }
+  nav.main-navigation ul.menu {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center; }
+    nav.main-navigation ul.menu li {
+      height: 100%;
+      list-style: none;
+      display: inline-block; }
+      nav.main-navigation ul.menu li a {
+        text-decoration: none;
+        padding: 0 2.1rem;
+        display: block;
+        height: 100%; }
+
+#main {
+  width: 100%; }
+  #main .content-left {
+    width: 66.66%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 1.5rem; }
+  #main .content-right {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 1.5rem; }
+
+.content-left article {
+  background: #fff;
+  padding: 3.5rem;
+  margin-bottom: 3.5rem;
+  text-align: center;
+  overflow: hidden; }
+  .content-left article .post-head h1.post-title {
+    font-size: 3rem; }
+    .content-left article .post-head h1.post-title a {
+      color: #000;
+      text-decoration: none; }
+  .content-left article .post-head div.post-meta {
+    margin-top: 1.4rem;
+    color: #CDCDCD; }
+    .content-left article .post-head div.post-meta span.author a {
+      color: #EEA236; }
+  .content-left article .post-content {
+    font-size: 2rem;
+    padding: 2.6rem 0; }
+  .content-left article .featured-media img {
+    width: 100%; }
+  .content-left article .post-permalink {
+    text-align: left; }
+    .content-left article .post-permalink a {
+      padding: .7rem 1.4rem;
+      border: .1rem solid orangered;
+      color: #fff;
+      text-decoration: none;
+      background: orange; }
+  .content-left article .post-footer {
+    padding-top: 2.1rem;
+    border-top: .1rem solid #CDCDCD;
+    margin-top: 3rem;
+    text-align: left;
+    color: #C0C0C0; }
+    .content-left article .post-footer a {
+      text-decoration: none;
+      color: #C0C0C0; }
+.content-left .pagination {
+  width: 100%;
+  height: 3.6rem;
+  margin-bottom: 3.5rem;
+  text-align: center;
+  line-height: 3.6rem;
+  color: #fff; }
+  .content-left .pagination span.page-number {
+    height: 100%;
+    padding: 0 1.4rem;
+    margin: 0 .3rem;
+    background: orangered;
+    display: inline-block; }
+  .content-left .pagination a {
+    height: 100%;
+    background: orangered;
+    display: inline-block;
+    padding: 0 1.4rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    box-sizing: border-box; }
+
+.content-right .post {
+  padding: 2.1rem 3rem;
+  margin-bottom: 3.5rem;
+  background: #fff; }
+  .content-right .post h4.title {
+    font-size: 2rem;
+    border-bottom: .1rem solid #CDCDCD;
+    padding-bottom: .7rem;
+    margin-bottom: 2.1rem; }
+  .content-right .post p {
+    padding-bottom: 1rem; }
+    .content-right .post p a {
+      color: orange;
+      text-decoration: none; }
+  .content-right .post .download a {
+    text-align: center;
+    background: orange;
+    padding: .7rem 1.4rem;
+    border: .1rem solid #CDCDCD;
+    display: block;
+    text-decoration: none; }
+  .content-right .post .tag-cloud a {
+    color: #C0C0C0;
+    padding: .2rem .7rem;
+    margin: 0 .7rem .7rem 0;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    display: inline-block; }
+  .content-right .post .tag-cloud a:hover {
+    background: darkorange;
+    color: #fff; }
+
+footer.main-footer {
+  width: 100%;
+  background: #202020;
+  padding-top: 3.5rem; }
+  footer.main-footer .container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden; }
+    footer.main-footer .container .col-sm-4 {
+      width: 33.33%;
+      float: left;
+      box-sizing: border-box;
+      padding: 0 4.5rem; }
+      footer.main-footer .container .col-sm-4 h4.title {
+        font-size: 2rem;
+        padding-bottom: .7rem;
+        border-bottom: .1rem solid #C0C0C0;
+        margin-bottom: 2.1rem;
+        color: #fff; }
+      footer.main-footer .container .col-sm-4 .recent-single-post {
+        padding-bottom: 1.4rem;
+        border-bottom: .1rem dashed #CCCCCC;
+        margin-bottom: 1.4rem; }
+        footer.main-footer .container .col-sm-4 .recent-single-post a {
+          text-decoration: none;
+          padding-bottom: .5rem;
+          color: #CCCCCC; }
+        footer.main-footer .container .col-sm-4 .recent-single-post a:hover {
+          color: orange; }
+        footer.main-footer .container .col-sm-4 .recent-single-post .date {
+          color: #4C4C4C; }
+      footer.main-footer .container .col-sm-4 .tag-cloud a {
+        padding: .2rem .7rem;
+        border: .1rem solid #C0C0C0;
+        margin: 0 .7rem .7rem 0;
+        display: inline-block;
+        text-decoration: none;
+        color: #C0C0C0; }
+      footer.main-footer .container .col-sm-4 .tag-cloud a:hover {
+        background: orange;
+        color: #fff; }
+      footer.main-footer .container .col-sm-4 div.friend-links a {
+        border: 0; }
+      footer.main-footer .container .col-sm-4 hr {
+        margin: 1.4rem 0;
+        border: .1rem dashed #C0C0C0; }
+
+.copyright {
+  padding: 2.8rem 0;
+  border-top: .1rem solid #C0C0C0;
+  box-sizing: border-box;
+  text-align: center;
+  color: #C0C0C0;
+  background: #202020; }
+  .copyright a {
+    color: #C0C0C0;
+    text-decoration: none; }
+  .copyright a:hover {
+    text-decoration: underline; }
+
+/*# sourceMappingURL=index.css.map */

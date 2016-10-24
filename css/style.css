@@ -1,0 +1,36 @@
+	* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			#content {
+				background-color: red;
+				height: 667px;
+				width: 100%;
+			}
+			
+			#header1 {
+				display: block;
+				overflow: hidden;
+				width: 100%;
+			}
+			
+			#header1 li {
+				float: left;
+			}
+			
+			#header2 {
+				clear: both;
+				width: 100%;
+				display: none;
+			}
+			
+			#left {
+				width: 70%;
+				float: left;
+			}
+			
+			#right {
+				float: left;
+				width: 30%;
+			}
