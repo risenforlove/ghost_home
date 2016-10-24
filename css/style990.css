@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  font-size: 10px;
+  background: #ebebeb; }
+
+nav.main-navigation div.dropmenu {
+  display: none; }
+nav.main-navigation ul.menu {
+  display: block; }
+
+#main {
+  width: 80%;
+  margin: 0 auto; }
+  #main .content-left {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 1.5rem; }
+  #main .content-right {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 1.5rem; }
+
+/*# sourceMappingURL=style990.css.map */
